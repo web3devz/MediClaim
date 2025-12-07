@@ -1,0 +1,17 @@
+{
+  "extends": "./tsconfig.json",
+  "include": ["src/**/*.ts", "../contract/src/**/*.ts", "../api/src/**/*.ts"],
+  "compilerOptions": {
+    "outDir": "dist",
+    "noEmit": false,
+    "declaration": false,
+    "sourceMap": true,
+
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "target": "ES2022",
+    "verbatimModuleSyntax": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true
+  }
+}
